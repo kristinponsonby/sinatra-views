@@ -49,6 +49,7 @@ Now, we just need to update our controller to render the `index.erb` file at the
 
 ```ruby
 	get '/' do
+	"<h1>Hello World</h1>"
 	  erb :index
 	end
 ``` 
